@@ -1,0 +1,16 @@
+[
+    {
+      "nome": "Cheeseburguer",
+      "descricao": "Um hamburger 100% carne bovina, queijo sabor cheddar, cebola, picles, ketchup, mostarda e pão sem gergelim",
+      "preco": 34,
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQs9BSWWl3cFXUTpC7Do-u-aA6vqgzy6U-l_IoItIIveN_nny8WSSLU1eg0odl4tSIk6BA&usqp=CAU",
+      "id": "1"
+    },
+    {
+      "nome": "Milk shake de baunilha",
+      "descricao": "Bebida a base de leite, sabor baunilha",
+      "preco": 25,
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeTS_63tfAde8R1OqrVCPnBj3hJe9FkONH2g&s",
+      "id": "2"
+    }
+  ]
