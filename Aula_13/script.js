@@ -12,10 +12,20 @@ async function  carregarCardapio() {
                 <h2>${comida.nome}</h2>
                 <p>${comida.descricao}</p>
                 <span>R$ ${comida.preco}</span>
+                <button onclick="excluirComida('${comida.id}')">Excluir comida</button>
             </div>
         </div>`
         sectionMenu.innerHTML += estruturaHtmlComida
     })   
+}
+
+async function excluirComida(id) {
+    const url = `https://6748c2ed5801f51535921711.mockapi.io/api/cardapio/${id}`
+    const resposta = await fetch(url, {
+        method: 'DELETE'
+    })
+    alert('Comida excluída')
+    
 }
 
 carregarCardapio()
